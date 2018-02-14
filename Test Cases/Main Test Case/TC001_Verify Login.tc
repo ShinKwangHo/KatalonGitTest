@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Verify Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b336337-e717-4362-90f8-62e8ab8fc04e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a1a6106-1ab9-4612-ae59-31d3bc5b95f0</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5731b0e4-e3b0-41ff-b736-e78bdcfcb96d</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02ff8237-47e5-407b-80ac-478f959efcb0</id>
+      <masked>false</masked>
+      <name>var_StatusExpectedResult</name>
+   </variable>
+</TestCaseEntity>

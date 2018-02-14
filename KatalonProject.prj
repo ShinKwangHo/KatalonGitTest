@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>This is may first Katalon Project</description>
+   <name>KatalonProject</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>fe11fad9-e3fd-4fe8-9fef-75b4f6040562</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
