@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Verification Case" time="2" tests="0" failures="0" errors="1">
+   <testsuite name="Login_Verification Case" tests="0" failures="0" errors="1" time="2" timestamp="2018-02-18 23:26:18" hostname="user - 192.168.25.42" id="Test Suites/Login_Verification Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\KatalonGitTest\\Reports\\Login_Verification Case\\20180218_232614"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\KatalonGitTest\\Reports\\Login_Verification Case\\20180218_232614\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - 192.168.25.42"/>
+         <property name="hostAddress" value="192.168.25.42"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Case/TC001_Verify Login" classname="Test Cases/Main Test Case/TC001_Verify Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe)"/>
+         <system-out><![CDATA[2018-02-18 23:26:18 - [TEST_CASE][ERROR] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe)
+
+2018-02-18 23:26:19 - [TEST_STEP][ERROR] - Start setup action : setup: Error occurred when try to run method 'setup' (Root cause: com.kms.katalon.core.exception.StepFailedException - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe))
+
+2018-02-18 23:26:19 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe)
+
+2018-02-18 23:26:20 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe)
+
+2018-02-18 23:26:20 - [MESSAGE][ERROR] - Error occurred when try to run method 'setup' (Root cause: com.kms.katalon.core.exception.StepFailedException - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe))
+
+2018-02-18 23:26:20 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+2018-02-18 23:26:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-18 23:26:20 - [MESSAGE][PASSED] - Browser is closed
+
+2018-02-18 23:26:20 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[2018-02-18 23:26:18 - [TEST_CASE][ERROR] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-18 23:26:18 - [TEST_SUITE][ERROR] - Login_Verification Case: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe)]]></system-out>
+      <system-err><![CDATA[2018-02-18 23:26:18 - [TEST_SUITE][ERROR] - Login_Verification Case: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\Users\user\Desktop\�ڵ�ȭ\Katalon\Katalon_Studio_Windows_64-5.3.0\configuration\resources\drivers\iedriver_win64\IEDriverServer.exe)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Verification Case,,,2018-02-18 23:26:18,2018-02-18 23:26:20,2.367s,ERROR
+,,,,,,
+Test Cases/Main Test Case/TC001_Verify Login,,,2018-02-18 23:26:18,2018-02-18 23:26:20,1.555s,ERROR
+Start setup action : setup,,,2018-02-18 23:26:19,2018-02-18 23:26:20,1.206s,ERROR
+Start tear down : teardown,,,2018-02-18 23:26:20,2018-02-18 23:26:20,0.093s,PASSED

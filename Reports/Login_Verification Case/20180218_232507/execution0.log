@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-02-18T23:25:11</date>
+  <millis>1518963911375</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login_Verification Case</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Login_Verification Case</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login_Verification Case</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:11</date>
+  <millis>1518963911434</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;user - 192.168.25.42&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">user - 192.168.25.42</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:11</date>
+  <millis>1518963911436</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:11</date>
+  <millis>1518963911437</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.25.42&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.25.42</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:11</date>
+  <millis>1518963911441</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.3.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.3.0.1</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:12</date>
+  <millis>1518963912728</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Main Test Case/TC001_Verify Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Main Test Case/TC001_Verify Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Main Test Case/TC001_Verify Login</property>
+  <property name="source">C:\\Users\\user\\git\\KatalonGitTest\\Test Cases\\Main Test Case\\TC001_Verify Login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:12</date>
+  <millis>1518963912788</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:12</date>
+  <millis>1518963912934</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;var_username&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:12</date>
+  <millis>1518963912977</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;var_password&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:12</date>
+  <millis>1518963912992</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;var_StatusExpectedResult&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:12</date>
+  <millis>1518963912998</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start running set up methods for Test Case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:12</date>
+  <millis>1518963912999</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start setup action : setup</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:13</date>
+  <millis>1518963913664</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914233</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914251</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914325</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914419</millis>
+  <sequence>16</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;http://opensource.demo.orangehrmlive.com/index.php/auth/login&amp;apos; (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\user\\Desktop\\\uFFFD\u06B5\uFFFD\u022D\\Katalon\\Katalon_Studio_Windows_64-5.3.0\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914420</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914426</millis>
+  <sequence>18</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Error occurred when try to run method &amp;apos;setup&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException - Unable to open browser with url: &amp;apos;http://opensource.demo.orangehrmlive.com/index.php/auth/login&amp;apos; (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\user\\Desktop\\\uFFFD\u06B5\uFFFD\u022D\\Katalon\\Katalon_Studio_Windows_64-5.3.0\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914427</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End setup action : setup</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914429</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start running tear down methods for Test Case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914429</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start tear down : teardown</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="stepIndex">1</property>
+  <property name="isIgnoredIfFailed">true</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914433</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914477</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Closing browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914479</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914481</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914483</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Method &amp;apos;teardown&amp;apos; complete successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914484</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End tear down : teardown</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914487</millis>
+  <sequence>28</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: &amp;apos;http://opensource.demo.orangehrmlive.com/index.php/auth/login&amp;apos; (Root cause: java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\user\\Desktop\\\uFFFD\u06B5\uFFFD\u022D\\Katalon\\Katalon_Studio_Windows_64-5.3.0\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914490</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Main Test Case/TC001_Verify Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-02-18T23:25:14</date>
+  <millis>1518963914702</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Login_Verification Case</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
