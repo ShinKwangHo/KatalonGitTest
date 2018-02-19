@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Verification Case,Chrome 64.0.3282.167,,2018-02-19 14:15:34,2018-02-19 14:15:56,21.719s,PASSED
+,,,,,,
+Test Cases/Main Test Case/TC001_Verify Login,Chrome 64.0.3282.167,,2018-02-19 14:15:35,2018-02-19 14:15:41,6.376s,PASSED
+Start setup action : setup,Chrome 64.0.3282.167,,2018-02-19 14:15:35,2018-02-19 14:15:40,4.936s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-02-19 14:15:40,2018-02-19 14:15:40,0.708s,PASSED
+Statement - switch (var_StatusExpectedResult.toString()),Chrome 64.0.3282.167,,2018-02-19 14:15:40,2018-02-19 14:15:41,0.093s,PASSED
+Start tear down : teardown,Chrome 64.0.3282.167,,2018-02-19 14:15:41,2018-02-19 14:15:41,0.606s,PASSED
+,,,,,,
+Test Cases/Main Test Case/TC001_Verify Login,Chrome 64.0.3282.167,,2018-02-19 14:15:41,2018-02-19 14:15:49,7.527s,PASSED
+Start setup action : setup,Chrome 64.0.3282.167,,2018-02-19 14:15:41,2018-02-19 14:15:47,5.749s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-02-19 14:15:47,2018-02-19 14:15:48,1.141s,PASSED
+Statement - switch (var_StatusExpectedResult.toString()),Chrome 64.0.3282.167,,2018-02-19 14:15:48,2018-02-19 14:15:48,0.065s,PASSED
+Start tear down : teardown,Chrome 64.0.3282.167,,2018-02-19 14:15:48,2018-02-19 14:15:49,0.559s,PASSED
+,,,,,,
+Test Cases/Main Test Case/TC001_Verify Login,Chrome 64.0.3282.167,,2018-02-19 14:15:49,2018-02-19 14:15:56,7.409s,PASSED
+Start setup action : setup,Chrome 64.0.3282.167,,2018-02-19 14:15:49,2018-02-19 14:15:53,3.812s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-02-19 14:15:53,2018-02-19 14:15:55,2.940s,PASSED
+Statement - switch (var_StatusExpectedResult.toString()),Chrome 64.0.3282.167,,2018-02-19 14:15:55,2018-02-19 14:15:56,0.064s,PASSED
+Start tear down : teardown,Chrome 64.0.3282.167,,2018-02-19 14:15:56,2018-02-19 14:15:56,0.568s,PASSED
