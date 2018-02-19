@@ -4,7 +4,7 @@
    <name>Login_Verification Case</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-19T14:36:50</lastRun>
+   <lastRun>2018-02-19T14:38:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
