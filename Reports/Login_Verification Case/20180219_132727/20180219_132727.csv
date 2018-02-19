@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Verification Case,IE 11,,2018-02-19 13:27:29,2018-02-19 13:28:19,49.863s,FAILED
+,,,,,,
+Test Cases/Main Test Case/TC001_Verify Login,IE 11,,2018-02-19 13:27:29,2018-02-19 13:27:33,4.167s,FAILED
+Start setup action : setup,IE 11,,2018-02-19 13:27:29,2018-02-19 13:27:32,3.244s,PASSED
+callTestCase,IE 11,,2018-02-19 13:27:32,2018-02-19 13:27:33,0.333s,FAILED
+Start tear down : teardown,IE 11,,2018-02-19 13:27:33,2018-02-19 13:27:33,0.553s,PASSED
+,,,,,,
+Test Cases/Main Test Case/TC001_Verify Login,IE 11,,2018-02-19 13:27:33,2018-02-19 13:27:55,22.080s,ERROR
+Start setup action : setup,IE 11,,2018-02-19 13:27:33,2018-02-19 13:27:55,21.466s,ERROR
+Start tear down : teardown,IE 11,,2018-02-19 13:27:55,2018-02-19 13:27:55,0.558s,PASSED
+,,,,,,
+Test Cases/Main Test Case/TC001_Verify Login,IE 11,,2018-02-19 13:27:55,2018-02-19 13:28:19,23.263s,ERROR
+Start setup action : setup,IE 11,,2018-02-19 13:27:55,2018-02-19 13:28:18,22.703s,ERROR
+Start tear down : teardown,IE 11,,2018-02-19 13:28:18,2018-02-19 13:28:19,0.529s,PASSED

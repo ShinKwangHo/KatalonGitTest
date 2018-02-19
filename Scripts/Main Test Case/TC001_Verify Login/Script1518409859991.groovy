@@ -38,7 +38,7 @@ switch (var_StatusExpectedResult.toString()) {
         WebUI.verifyEqual(errorMess.contains('Invalid credentials'), true)
 
         break
-	case 'Login Sucess':
+	case 'Welcome Admin':
 		def successMess = WebUI.getText(findTestObject('Object Repository/Main Test Case_Verify Login/a_Welcome Admin'))
 	
 		WebUI.verifyEqual(successMess.contains('Welcome Admin'), true)

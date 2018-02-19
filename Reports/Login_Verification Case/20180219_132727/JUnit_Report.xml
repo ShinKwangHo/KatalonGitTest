@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Verification Case" time="49" tests="0" failures="1" errors="2">
+   <testsuite name="Login_Verification Case" tests="0" failures="1" errors="2" time="49" timestamp="2018-02-19 13:27:29" hostname="COMES-PC$ - Comes-PC" id="Test Suites/Login_Verification Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Comes\\git\\KatalonGitTest2\\Reports\\Login_Verification Case\\20180219_132727"/>
+         <property name="logFiles" value="C:\\Users\\Comes\\git\\KatalonGitTest2\\Reports\\Login_Verification Case\\20180219_132727\\execution0.log, C:\\Users\\Comes\\git\\KatalonGitTest2\\Reports\\Login_Verification Case\\20180219_132727\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="COMES-PC$ - Comes-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.70.32.204"/>
+         <property name="sessionId" value="f85a889a-3382-4a62-872e-db4d1af06eb4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Case/TC001_Verify Login" classname="Test Cases/Main Test Case/TC001_Verify Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})"/>
+         <system-out><![CDATA[2018-02-19 13:27:29 - [TEST_CASE][FAILED] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})
+
+2018-02-19 13:27:29 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+2018-02-19 13:27:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login'
+
+2018-02-19 13:27:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login'
+
+2018-02-19 13:27:32 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+2018-02-19 13:27:32 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common Test Case/Login' (Root cause: Call Test Case 'Test Cases/Common Test Case/Login' failed)
+
+2018-02-19 13:27:32 - [TEST_CASE][FAILED] - Test Cases/Common Test Case/Login: Test Cases/Common Test Case/Login FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})
+
+2018-02-19 13:27:33 - [TEST_STEP][FAILED] - setText: Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})
+
+2018-02-19 13:27:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-19 13:27:33 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})
+
+2018-02-19 13:27:33 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common Test Case/Login' (Root cause: Call Test Case 'Test Cases/Common Test Case/Login' failed)
+
+2018-02-19 13:27:33 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+2018-02-19 13:27:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-19 13:27:33 - [MESSAGE][PASSED] - Browser is closed
+
+2018-02-19 13:27:33 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[2018-02-19 13:27:29 - [TEST_CASE][FAILED] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Case/TC001_Verify Login" classname="Test Cases/Main Test Case/TC001_Verify Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27231/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-02-19 13:27:33 - [TEST_CASE][ERROR] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27231/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-02-19 13:27:33 - [TEST_STEP][ERROR] - Start setup action : setup: Error occurred when try to run method 'setup' (Root cause: com.kms.katalon.core.exception.StepFailedException - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27231/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: ))
+
+2018-02-19 13:27:33 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27231/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-02-19 13:27:55 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27231/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-02-19 13:27:55 - [MESSAGE][ERROR] - Error occurred when try to run method 'setup' (Root cause: com.kms.katalon.core.exception.StepFailedException - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27231/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: ))
+
+2018-02-19 13:27:55 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+2018-02-19 13:27:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-19 13:27:55 - [MESSAGE][PASSED] - Browser is closed
+
+2018-02-19 13:27:55 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[2018-02-19 13:27:33 - [TEST_CASE][ERROR] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27231/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Case/TC001_Verify Login" classname="Test Cases/Main Test Case/TC001_Verify Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27649/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-02-19 13:27:55 - [TEST_CASE][ERROR] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27649/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-02-19 13:27:55 - [TEST_STEP][ERROR] - Start setup action : setup: Error occurred when try to run method 'setup' (Root cause: com.kms.katalon.core.exception.StepFailedException - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27649/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: ))
+
+2018-02-19 13:27:55 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27649/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-02-19 13:28:18 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27649/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-02-19 13:28:18 - [MESSAGE][ERROR] - Error occurred when try to run method 'setup' (Root cause: com.kms.katalon.core.exception.StepFailedException - Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27649/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: ))
+
+2018-02-19 13:28:18 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+2018-02-19 13:28:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-19 13:28:19 - [MESSAGE][PASSED] - Browser is closed
+
+2018-02-19 13:28:19 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[2018-02-19 13:27:55 - [TEST_CASE][ERROR] - Test Cases/Main Test Case/TC001_Verify Login: Test Cases/Main Test Case/TC001_Verify Login has ERROR(s) because (of) Unable to open browser with url: 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('더 이상 파일이 없습니다.') for URL 'http://localhost:27649/'
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-19 13:27:29 - [TEST_SUITE][FAILED] - Login_Verification Case: Test Cases/Main Test Case/TC001_Verify Login FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})]]></system-out>
+      <system-err><![CDATA[2018-02-19 13:27:29 - [TEST_SUITE][FAILED] - Login_Verification Case: Test Cases/Main Test Case/TC001_Verify Login FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Common Test Case_Login/input_txtUsername' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'COMES-PC', ip: '10.70.32.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27313/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f85a889a-3382-4a62-872e-db4d1af06eb4
+*** Element info: {Using=xpath, value=//input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']})]]></system-err>
+   </testsuite>
+</testsuites>
